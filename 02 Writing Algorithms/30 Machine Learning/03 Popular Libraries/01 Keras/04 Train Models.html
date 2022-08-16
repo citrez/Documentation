@@ -35,7 +35,7 @@
 <ol>
     <li>Create a method to process the data for the algorithm class, with input data and number of timestep as arguments.</li>
     <div class="section-example-container">
-        <pre class="python">def ProcessData(self, data, n_tsteps=5):</pre>
+        <pre class="python">def ProcessData(self, history, n_steps=5):</pre>
     </div>
 
     <li>Call the <code>pct_change</code> and <code>dropna</code> methods.</li>
@@ -45,7 +45,7 @@
 
     <li>Loop through the <code>daily_pct_change</code> DataFrame and collect the features and labels.</li>
     <div class="section-example-container">
-        <pre class="python">    n_steps = 5<br>    features = []
+        <pre class="python">    features = []
     labels = []
     for i in range(len(daily_pct_change)-n_steps):
         features.append(daily_pct_change.iloc[i:i+n_steps].values)
@@ -85,7 +85,7 @@
                 metrics=['mae', 'mse'])</pre>
     </div>
 
-    <li>return the trained model.</li>
+    <li>return the built model.</li>
     <div class="section-example-container">
         <pre class="python">    return model</pre>
     </div>
