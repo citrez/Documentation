@@ -3,7 +3,7 @@
 <ol>
     <li>Process new data in form of <code>pandas.Dataframe</code>.</li>
     <div class="section-example-container">
-        <pre class="python">new_X, __ = self.ProcessData(df)</pre>
+        <pre class="python">new_X = self.ProcessData(df)</pre>
     </div>
 
     <li>Make new prediction.</li>
@@ -14,9 +14,9 @@ prediction = float(prediction[-1])</pre>
 
     <li>Trade based on the new prediction.</li>
     <div class="section-example-container">
-        <pre class="python">if prediction > 0:
+        <pre class="python">if prediction == 1:
     self.SetHoldings(self.spy, 1)
-elif prediction < 0:            
-    self.SetHoldings(self.spy, -1)</pre>
+else:            
+    self.SetHoldings(self.spy, 0)</pre>
     </div>
 </ol>
