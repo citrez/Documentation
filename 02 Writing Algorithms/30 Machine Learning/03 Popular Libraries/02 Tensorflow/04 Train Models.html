@@ -40,8 +40,7 @@
 
     <li>Loop through the <code>history</code> DataFrame and collect the features and labels.</li>
     <div class="section-example-container">
-        <pre class="python">    lookback = 5
-    lookback_series = []
+        <pre class="python">    lookback_series = []
     for i in range(1, lookback + 1):
         df = history['close'].shift(i)[lookback:-1]
         df.name = f"close_-{i}"

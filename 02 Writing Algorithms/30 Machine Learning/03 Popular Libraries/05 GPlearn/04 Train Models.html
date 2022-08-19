@@ -38,7 +38,7 @@
         <pre class="python">def ProcessData(self, history, n_steps=5):</pre>
     </div>
 
-    <li>Call the <code>pct_change</code> and <code>dropna</code> methods.</li>
+    <li>Call the <code>pct_change</code> and <code>dropna</code> methods with selected close price column.</li>
     <div class="section-example-container">
         <pre class="python">    daily_returns = history['close'].pct_change().dropna()</pre>
     </div>
