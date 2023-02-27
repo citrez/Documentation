@@ -117,7 +117,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#AddUniverse-header">AddUniverse()</a></td>
-<td>Adds the universe to the algorithm.</td>
+<td></td>
 </tr>
 <tr>
 <td width="33%"><a href="#AddUniverseOptions-header">AddUniverseOptions()</a></td>
@@ -497,7 +497,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#Order-header">Order()</a></td>
-<td>Issue an order/trade for buying/selling an option strategy.</td>
+<td>Issue an order/trade for asset.</td>
 </tr>
 <tr>
 <td width="33%"><a href="#Plot-header">Plot()</a></td>
@@ -725,7 +725,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#STO-header">STO()</a></td>
-<td>Overload short hand to create a new Stochastic indicator; defaulting to the 3 period for dStoch.</td>
+<td>Creates a new Stochastic indicator.</td>
 </tr>
 <tr>
 <td width="33%"><a href="#StopLimitOrder-header">StopLimitOrder()</a></td>
@@ -1433,7 +1433,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#STO-header">STO()</a></td>
-<td>Overload short hand to create a new Stochastic indicator; defaulting to the 3 period for dStoch.</td>
+<td>Creates a new Stochastic indicator.</td>
 </tr>
 <tr>
 <td width="33%"><a href="#STR-header">STR()</a></td>
@@ -1713,7 +1713,7 @@
 </tr>
 <tr>
 <td width="33%"><a href="#Order-header">Order()</a></td>
-<td>Issue an order/trade for buying/selling an option strategy.</td>
+<td>Issue an order/trade for asset.</td>
 </tr>
 <tr>
 <td width="33%"><a href="#Sell-header">Sell()</a></td>
@@ -1765,7 +1765,7 @@
 <tbody>
 <tr>
 <td width="33%"><a href="#AddUniverse-header">AddUniverse()</a></td>
-<td>Adds the universe to the algorithm.</td>
+<td></td>
 </tr>
 <tr>
 <td width="33%"><a href="#AddUniverseOptions-header">AddUniverseOptions()</a></td>
